@@ -33,3 +33,14 @@ exports.testnet = {
   scriptHash: 0xc4,
   wif: 0xef,
 };
+exports.divi = {
+  messagePrefix: '\x19Divi Signed Message:\n',
+  bech32: 'divi',
+  bip32: {
+    public: 0x22d2533,
+    private: 0x221312b
+  },
+  pubKeyHash: 0x1e,
+  scriptHash: 0xd,
+  wif: 0xd4
+};
